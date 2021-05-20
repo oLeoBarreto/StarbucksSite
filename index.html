@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png">
+    <script src="app.js"></script>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <nav class="navbar">
+            <a href="#"><img src="img/logo.png" class="logo"></a>
+            <div class="toggle"></div>
+            <ul class="navbar-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav> 
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee <br> It's <span>Starbucks</span> </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue nulla, hendrerit in cursus vitae, hendrerit quis ex.
+                Nullam vitae luctus eros. Morbi ut dui a lorem finibus rutrum. Maecenas magna nunc, congue dapibus ipsum quis, placerat suscipit metus. 
+                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam tristique metus sem. Mauris volutpat cursus lectus. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="imgBox">
+                <img src="img/img1.png" class="starbucks" >
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/thumb1.png" onclick="imgSlider('img/img1.png');changeColorCircle('#017143')"></li>
+            <li><img src="img/thumb2.png" onclick="imgSlider('img/img2.png');changeColorCircle('#eb7495')"></li>
+            <li><img src="img/thumb3.png" onclick="imgSlider('img/img3.png');changeColorCircle('#d752b1')"></li>
+        </ul> 
+        <ul class="icons">
+            <li><a href="https://www.facebook.com/Starbucks/"><img src="img/facebook.png"></a></li>
+            <li><a href="https://www.instagram.com/starbucks/"><img src="img/instagram.png"></a></li>
+            <li><a href="https://twitter.com/Starbucks"><img src="img/twitter.png"></a></li>
+        </ul>
+    </section> 
+</body>
+</html>
